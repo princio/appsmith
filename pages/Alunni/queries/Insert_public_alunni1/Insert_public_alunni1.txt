@@ -1,0 +1,1 @@
+INSERT INTO public.alunni ("nome","cognome","dis","classe","index") VALUES ('{{(Table1.newRow || {}).nome}}','{{(Table1.newRow || {}).cognome}}','{{(Table1.newRow || {}).dis}}','{{(Table1.newRow || {}).classe}}','{{(Table1.newRow || {}).index}}')

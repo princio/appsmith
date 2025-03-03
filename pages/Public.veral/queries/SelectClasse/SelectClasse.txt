@@ -1,0 +1,1 @@
+SELECT DISTINCT(classe) as classe FROM public."alunni" ORDER BY classe;

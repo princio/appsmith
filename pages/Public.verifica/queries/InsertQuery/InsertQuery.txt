@@ -1,0 +1,28 @@
+INSERT INTO public."verifica" (
+	"id",
+	"nome",
+	"classe",
+	"argomento",
+	"datetime",
+	"griglia",
+	"limiti_di_tempo",
+	"val1",
+	"val2",
+	"val3",
+	"val4",
+	"val5"
+)
+VALUES (
+	'{{insert_form.formData.id}}',
+	'{{insert_form.formData.nome}}',
+	'{{insert_form.formData.classe}}',
+	'{{insert_form.formData.argomento}}',
+	'{{insert_form.formData.datetime}}',
+	'{{insert_form.formData.griglia}}',
+	'{{insert_form.formData.limiti_di_tempo}}',
+	'{{insert_form.formData.val1}}',
+	'{{insert_form.formData.val2}}',
+	'{{insert_form.formData.val3}}',
+	'{{insert_form.formData.val4}}',
+	'{{insert_form.formData.val5}}'
+);

@@ -1,0 +1,2 @@
+DELETE FROM public."alunni"
+  WHERE "id" = {{data_table.triggeredRow.id}};

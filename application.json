@@ -1,0 +1,25 @@
+{
+  "appIsExample": false,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#C7F3F0",
+  "evaluationVersion": 2,
+  "pages": [
+    {
+      "id": "Page1",
+      "isDefault": true
+    },
+    {
+      "id": "Alunni",
+      "isDefault": false
+    },
+    {
+      "id": "Public.verifica",
+      "isDefault": false
+    },
+    {
+      "id": "Public.veral",
+      "isDefault": false
+    }
+  ]
+}

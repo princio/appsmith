@@ -1,0 +1,2 @@
+DELETE FROM public."verifica"
+  WHERE "id" = {{data_table.triggeredRow.id}};

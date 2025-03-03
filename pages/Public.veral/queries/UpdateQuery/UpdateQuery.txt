@@ -1,0 +1,13 @@
+UPDATE public."veral" SET
+		"valutazione" = '{{update_form.fieldState.valutazione.isVisible ? update_form.formData.valutazione : update_form.sourceData.valutazione}}',
+		"alunno_id" = '{{update_form.fieldState.alunno_id.isVisible ? update_form.formData.alunno_id : update_form.sourceData.alunno_id}}',
+    "verifica_id" = '{{update_form.fieldState.verifica_id.isVisible ? update_form.formData.verifica_id : update_form.sourceData.verifica_id}}',
+		"data" = '{{update_form.fieldState.data.isVisible ? update_form.formData.data : update_form.sourceData.data}}',
+		"ora_inizio" = '{{update_form.fieldState.ora_inizio.isVisible ? update_form.formData.ora_inizio : update_form.sourceData.ora_inizio}}',
+		"ora_fine" = '{{update_form.fieldState.ora_fine.isVisible ? update_form.formData.ora_fine : update_form.sourceData.ora_fine}}',
+		"voto" = '{{update_form.fieldState.voto.isVisible ? update_form.formData.voto : update_form.sourceData.voto}}',
+		"griglia" = '{{update_form.fieldState.griglia.isVisible ? update_form.formData.griglia : update_form.sourceData.griglia}}',
+		"note" = '{{update_form.fieldState.note.isVisible ? update_form.formData.note : update_form.sourceData.note}}',
+		"val1" = '{{update_form.fieldState.val1.isVisible ? update_form.formData.val1 : update_form.sourceData.val1}}',
+		"val2" = '{{update_form.fieldState.val2.isVisible ? update_form.formData.val2 : update_form.sourceData.val2}}'
+	WHERE "id" = {{data_table.selectedRow.id}};

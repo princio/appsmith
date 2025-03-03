@@ -1,0 +1,1 @@
+UPDATE public.alunni SET "dis"= '{{Table1.updatedRow.dis}}', "classe"= '{{Table1.updatedRow.classe}}', "index"= '{{Table1.updatedRow.index}}' WHERE "id"= {{Table1.updatedRow.id}};

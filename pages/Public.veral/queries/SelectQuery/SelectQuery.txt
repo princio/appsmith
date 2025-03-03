@@ -1,0 +1,31 @@
+SELECT
+	VERAL.ID,
+	ALUNNO_ID,
+	VERIFICA_ID,
+	VERIFICA.NOME AS "Verifica",
+	VERIFICA.ARGOMENTO,
+	AL.INDEX,
+	AL.NOME,
+	AL.COGNOME,
+	VERAL."data" AS DATA,
+	ORA_INIZIO,
+	ORA_FINE,
+	CEIL(EXTRACT(epoch from ORA_FINE - ORA_INIZIO)/60) as minuti,
+	VALUTAZIONE,
+	VOTO,
+	GRIGLIA,
+	NOTE,
+	VERAL.VAL1,
+	VERAL.VAL2,
+	VERAL.VAL3,
+	VERAL.VAL4,
+	VERAL.VAL5,
+	VERAL.VAL6
+FROM
+	VERAL
+	JOIN ALUNNI AL ON VERAL.ALUNNO_ID = AL.ID
+	JOIN VERIFICA ON VERAL.VERIFICA_ID = VERIFICA.ID
+WHERE al.classe='{{SelectUIClasse.selectedOptionValue}}' AND verifica_id={{SelectUIVerifica.selectedOptionValue}}
+ORDER BY "{{data_table.sortOrder.column || 'id'}}" {{data_table.sortOrder.order || 'ASC'}}
+LIMIT {{data_table.pageSize}}
+OFFSET {{(data_table.pageNo - 1) * data_table.pageSize}};

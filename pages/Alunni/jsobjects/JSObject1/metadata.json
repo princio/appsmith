@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "67c0a3fed91ad133982ef3ae_74745590-9749-4e92-b04e-6b8f95d35dcc",
+  "id": "Alunni_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Alunni",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "disabilita",
+        "value": "[{\n  value: 'normale',\n  label: 'normale'\n}, {\n  value: 'dsa',\n  label: 'dsa'\n}, {\n  value: 'om',\n  label: 'om'\n}]"
+      }
+    ]
+  }
+}

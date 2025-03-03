@@ -1,0 +1,14 @@
+INSERT INTO public."alunni" (
+	"id",
+	"cognome",
+	"nome",
+	"dis",
+	"classe",
+	"index")
+VALUES (
+	'{{insert_form.formData.id}}',
+	'{{insert_form.formData.cognome}}',
+	'{{insert_form.formData.nome}}',
+	'{{insert_form.formData.dis}}',
+	'{{insert_form.formData.classe}}',
+	'{{insert_form.formData.index}}');

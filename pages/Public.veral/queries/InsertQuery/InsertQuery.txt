@@ -1,0 +1,28 @@
+INSERT INTO public."veral" (
+	"id",
+	"valutazione",
+	"alunno_id",
+	"verifica_id",
+	"data",
+	"ora_inizio",
+	"ora_fine",
+	"voto",
+	"griglia",
+	"note",
+	"val1",
+	"val2"
+)
+VALUES (
+	'{{insert_form.formData.id}}',
+	'{{insert_form.formData.valutazione}}',
+	'{{insert_form.formData.alunno_id}}',
+	'{{insert_form.formData.verifica_id}}',
+	'{{insert_form.formData.data}}',
+	'{{insert_form.formData.ora_inizio}}',
+	'{{insert_form.formData.ora_fine}}',
+	'{{insert_form.formData.voto}}',
+	'{{insert_form.formData.griglia}}',
+	'{{insert_form.formData.note}}',
+	'{{insert_form.formData.val1}}',
+	'{{insert_form.formData.val2}}'
+);

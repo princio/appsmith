@@ -1,0 +1,7 @@
+UPDATE public."alunni" SET
+		"cognome" = '{{update_form.fieldState.cognome.isVisible ? update_form.formData.cognome : update_form.sourceData.cognome}}',
+		"nome" = '{{update_form.fieldState.nome.isVisible ? update_form.formData.nome : update_form.sourceData.nome}}',
+    "dis" = '{{update_form.fieldState.dis.isVisible ? update_form.formData.dis : update_form.sourceData.dis}}',
+		"classe" = '{{update_form.fieldState.classe.isVisible ? update_form.formData.classe : update_form.sourceData.classe}}',
+		"index" = '{{update_form.fieldState.index.isVisible ? update_form.formData.index : update_form.sourceData.index}}'
+WHERE "id" = {{data_table.selectedRow.id}};
