@@ -1,5 +1,6 @@
 export default {
-	verifica: {},
+	verifica: null,
+	vals: [],
 	showTimings: true,
 	switchShowTimings() {
 		this.showTimings = !this.showTimings;
@@ -7,6 +8,13 @@ export default {
 	async setVerifica() {
 		const data = await SelectVerifica.run();
 		this.verifica = data[0];
+		this.vals = [];
+		
+		let obj = {};
+		for (let i = 1; i <= 6; i++) {
+			obj[`val${i}`] = this.verifica[`val${i}`];
+		}
+		this.vals.push(obj);
 		SelectVeral.run();
 	},
 	voto(row) {

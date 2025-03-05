@@ -1,10 +1,10 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-  "alignWidget": "LEFT",
+  "alignWidget": "RIGHT",
   "animateLoading": true,
-  "bottomRow": 16,
+  "bottomRow": 5,
   "boxShadow": "none",
-  "defaultSwitchState": false,
+  "defaultSwitchState": true,
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -16,9 +16,9 @@
   "isLoading": false,
   "isVisible": true,
   "key": "8wn7rdyhzp",
-  "label": "Id",
+  "label": "Dis",
   "labelPosition": "Left",
-  "leftColumn": 1,
+  "leftColumn": 56,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "mobileBottomRow": 12,
@@ -26,17 +26,17 @@
   "mobileRightColumn": 25,
   "mobileTopRow": 8,
   "needsErrorInfo": false,
-  "originalBottomRow": 11,
-  "originalTopRow": 7,
+  "originalBottomRow": 5,
+  "originalTopRow": 1,
   "parentColumnSpace": 6.9375,
-  "parentId": "j6zivccvzr",
+  "parentId": "ychhi6c9x2",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 13,
-  "topRow": 12,
+  "rightColumn": 63,
+  "topRow": 1,
   "type": "SWITCH_WIDGET",
   "version": 1,
-  "widgetId": "g86xck7fca",
-  "widgetName": "SwitchId"
+  "widgetId": "8sn94fvfah",
+  "widgetName": "SwitchDis"
 }

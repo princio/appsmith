@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 15,
+  "bottomRow": 8,
   "boxShadow": "none",
   "defaultOptionValue": "1AP",
   "dynamicBindingPathList": [
@@ -16,7 +16,7 @@
       "key": "sourceData"
     }
   ],
-  "dynamicHeight": "FIXED",
+  "dynamicHeight": "AUTO_HEIGHT",
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
@@ -44,7 +44,7 @@
   "labelText": "Classe",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 6,
+  "leftColumn": 3,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -56,18 +56,21 @@
   "onOptionChange": "{{SelectVerifiche.run()}}",
   "optionLabel": "label",
   "optionValue": "value",
+  "originalBottomRow": 8,
+  "originalTopRow": 1,
   "parentColumnSpace": 12.208251953125,
-  "parentId": "59rw5mx0bq",
+  "parentId": "lhw3ed2ta9",
   "parentRowSpace": 10,
   "placeholderText": "Select option",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 26,
+  "rightColumn": 28,
   "serverSideFiltering": false,
+  "shouldScrollContents": true,
   "sourceData": "{{SelectClasse.data.map( (obj) =>{ return  {'label': obj.classe, 'value': obj.classe } })}}",
-  "topRow": 8,
+  "topRow": 1,
   "type": "SELECT_WIDGET",
   "version": 1,
-  "widgetId": "qhfajqimbb",
+  "widgetId": "i08uo4k0zl",
   "widgetName": "SelectUIClasse"
 }

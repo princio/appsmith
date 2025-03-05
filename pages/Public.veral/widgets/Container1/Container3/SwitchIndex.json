@@ -1,10 +1,10 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-  "alignWidget": "LEFT",
+  "alignWidget": "RIGHT",
   "animateLoading": true,
-  "bottomRow": 11,
+  "bottomRow": 5,
   "boxShadow": "none",
-  "defaultSwitchState": true,
+  "defaultSwitchState": false,
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -16,9 +16,9 @@
   "isLoading": false,
   "isVisible": true,
   "key": "8wn7rdyhzp",
-  "label": "Ora fine",
+  "label": "Index",
   "labelPosition": "Left",
-  "leftColumn": 51,
+  "leftColumn": 15,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "mobileBottomRow": 12,
@@ -26,17 +26,17 @@
   "mobileRightColumn": 25,
   "mobileTopRow": 8,
   "needsErrorInfo": false,
-  "originalBottomRow": 12,
-  "originalTopRow": 7,
+  "originalBottomRow": 5,
+  "originalTopRow": 1,
   "parentColumnSpace": 6.9375,
-  "parentId": "j6zivccvzr",
+  "parentId": "ychhi6c9x2",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
-  "topRow": 7,
+  "rightColumn": 23,
+  "topRow": 1,
   "type": "SWITCH_WIDGET",
   "version": 1,
-  "widgetId": "zmy39dmp35",
-  "widgetName": "SwitchOraFine"
+  "widgetId": "sgalgejmcb",
+  "widgetName": "SwitchIndex"
 }

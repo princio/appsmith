@@ -9,7 +9,11 @@
     "variables": [
       {
         "name": "verifica",
-        "value": "{}"
+        "value": "null"
+      },
+      {
+        "name": "vals",
+        "value": "[]"
       },
       {
         "name": "showTimings",

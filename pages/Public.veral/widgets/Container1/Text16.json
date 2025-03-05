@@ -5,6 +5,9 @@
   "dynamicBindingPathList": [
     {
       "key": "fontFamily"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -27,8 +30,8 @@
   "parentColumnSpace": 11.78515625,
   "parentId": "59rw5mx0bq",
   "parentRowSpace": 10,
-  "rightColumn": 54,
-  "text": "public_veral Data",
+  "rightColumn": 28,
+  "text": "{{JSObject1.verifica ? `${JSObject1.verifica.nome} - ${JSObject1.verifica.classe}` : `Seleziona Verifica` }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 1,
