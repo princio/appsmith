@@ -53,7 +53,7 @@
   "mobileRightColumn": 27,
   "mobileTopRow": 8,
   "needsErrorInfo": false,
-  "onOptionChange": "{{SelectVerifica.run()}}",
+  "onOptionChange": "{{SelectVerifiche.run()}}",
   "optionLabel": "label",
   "optionValue": "value",
   "parentColumnSpace": 12.208251953125,

@@ -1,4 +1,2 @@
-SELECT id as value, nome as label FROM public."verifica"
-where classe='{{SelectUIClasse.selectedOptionValue}}'
---where not nome ilike 'berb%'
-ORDER BY id;
+SELECT * FROM public."verifica"
+where id={{SelectUIVerifica.selectedOptionValue}}

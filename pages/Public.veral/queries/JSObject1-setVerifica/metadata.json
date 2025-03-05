@@ -1,16 +1,12 @@
 {
-  "gitSyncId": "67c0a3fed91ad133982ef3ae_d2209da0-a056-454f-a726-0a33b98f5412",
-  "id": "Public.veral_JSObject1.bo",
+  "gitSyncId": "67c0a3fed91ad133982ef3ae_f05b2359-f3c7-4f8c-976d-8b5bd0fe2821",
+  "id": "Public.veral_JSObject1.setVerifica",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
     "actionConfiguration": {
       "encodeParamsToggle": true,
-      "jsArguments": [
-        {
-          "name": "th"
-        }
-      ],
+      "jsArguments": [],
       "paginationType": "NONE",
       "timeoutInMillisecond": 10000
     },
@@ -27,8 +23,8 @@
       }
     ],
     "executeOnLoad": false,
-    "fullyQualifiedName": "JSObject1.bo",
-    "name": "bo",
+    "fullyQualifiedName": "JSObject1.setVerifica",
+    "name": "setVerifica",
     "pageId": "Public.veral",
     "userSetOnLoad": false
   }

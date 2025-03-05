@@ -1,0 +1,1 @@
+UPDATE veral SET val3={{data_table.updatedRow['val3']}} where id={{data_table.updatedRow['id']}}

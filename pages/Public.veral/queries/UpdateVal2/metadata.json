@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "67c0a3fed91ad133982ef3ae_8d456101-38f4-406f-b5a3-b672eb85b217",
-  "id": "Public.veral_SelectVerifica",
+  "gitSyncId": "67c0a3fed91ad133982ef3ae_dfaea8c9-c5aa-4d5a-86d0-c3970adf449a",
+  "id": "Public.veral_UpdateVal2",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM public.\"verifica\"\nwhere id={{SelectUIVerifica.selectedOptionValue}}",
+      "body": "UPDATE veral SET val2={{data_table.updatedRow['val2']}} where id={{data_table.updatedRow['id']}}",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -28,7 +28,7 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "SelectVerifica",
+    "name": "UpdateVal2",
     "pageId": "Public.veral",
     "userSetOnLoad": false
   }

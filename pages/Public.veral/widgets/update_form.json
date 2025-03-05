@@ -303,6 +303,33 @@
     },
     {
       "key": "schema.__root_schema__.children.minuti.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.dis.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.dis.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.dis.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.voto_calcolato.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.voto_calcolato.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.voto_calcolato.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.xn__penalit_fwa.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.xn__penalit_fwa.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.xn__penalit_fwa.accentColor"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -336,7 +363,7 @@
   "isVisible": "{{!!data_table.selectedRow.id}}",
   "key": "h9l9ozr8op",
   "labelTextSize": "0.875rem",
-  "leftColumn": 39,
+  "leftColumn": 52,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "onSubmit": "{{UpdateQuery.run(() => SelectVeral.run(), (error) => showAlert(`Error while updating resource!\\n ${error}`,'error'))}}",
@@ -475,6 +502,28 @@
           "shortcuts": false,
           "sourceData": "2024-11-22",
           "timePrecision": "minute"
+        },
+        "dis": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "dis",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.dis))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "dis",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Dis",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "dis",
+          "position": 22,
+          "sourceData": "normale"
         },
         "index": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -739,7 +788,7 @@
           "children": {},
           "dataType": "string",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.valutazione))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
+          "fieldType": "Multiline Text Input",
           "iconAlign": "left",
           "identifier": "valutazione",
           "isCustomField": false,
@@ -796,6 +845,50 @@
           "originalIdentifier": "voto",
           "position": 6,
           "sourceData": 6
+        },
+        "voto_calcolato": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "voto calcolato",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"voto calcolato\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "voto_calcolato",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Voto Calcolato",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "voto calcolato",
+          "position": 21,
+          "sourceData": "6.67 - 1 = 5.67"
+        },
+        "xn__penalit_fwa": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "penalità",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "number",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"penalità\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Number Input",
+          "iconAlign": "left",
+          "identifier": "xn__penalit_fwa",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": true,
+          "label": "Penalita",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "penalità",
+          "position": 22,
+          "sourceData": 1
         }
       },
       "dataType": "object",

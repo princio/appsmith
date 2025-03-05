@@ -1,6 +1,6 @@
 {
   "gitSyncId": "67c0a3fed91ad133982ef3ae_92f90b6e-37c3-4095-9cc7-74cdd4f94f12",
-  "id": "Public.veral_UpdateVal",
+  "id": "Public.veral_UpdateVal1",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -28,7 +28,7 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "UpdateVal",
+    "name": "UpdateVal1",
     "pageId": "Public.veral",
     "userSetOnLoad": false
   }
