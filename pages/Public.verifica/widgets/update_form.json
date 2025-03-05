@@ -393,7 +393,7 @@
           "label": "Argomento",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "argomento",
-          "position": 2
+          "position": 3
         },
         "classe": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -436,7 +436,7 @@
           "label": "Data",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "data",
-          "position": 10,
+          "position": 2,
           "sourceData": ""
         },
         "limite_1": {
@@ -445,9 +445,9 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
-          "dataType": "string",
+          "dataType": "number",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.limite_1))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
+          "fieldType": "Number Input",
           "iconAlign": "left",
           "identifier": "limite_1",
           "isCustomField": false,
@@ -458,8 +458,8 @@
           "label": "Limite 1",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "limite_1",
-          "position": 11,
-          "sourceData": ""
+          "position": 4,
+          "sourceData": 15
         },
         "limite_2": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -467,9 +467,9 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
-          "dataType": "string",
+          "dataType": "number",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.limite_2))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
+          "fieldType": "Number Input",
           "iconAlign": "left",
           "identifier": "limite_2",
           "isCustomField": false,
@@ -480,8 +480,8 @@
           "label": "Limite 2",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "limite_2",
-          "position": 12,
-          "sourceData": ""
+          "position": 5,
+          "sourceData": 25
         },
         "limite_3": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -489,9 +489,9 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
-          "dataType": "string",
+          "dataType": "number",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.limite_3))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
+          "fieldType": "Number Input",
           "iconAlign": "left",
           "identifier": "limite_3",
           "isCustomField": false,
@@ -502,8 +502,8 @@
           "label": "Limite 3",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "limite_3",
-          "position": 13,
-          "sourceData": ""
+          "position": 6,
+          "sourceData": 100
         },
         "nome": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -533,9 +533,9 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
-          "dataType": "string",
+          "dataType": "number",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.penalita_1))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
+          "fieldType": "Number Input",
           "iconAlign": "left",
           "identifier": "penalita_1",
           "isCustomField": false,
@@ -546,8 +546,8 @@
           "label": "Penalita 1",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "penalita_1",
-          "position": 14,
-          "sourceData": ""
+          "position": 7,
+          "sourceData": 1
         },
         "penalita_2": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -555,9 +555,9 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
-          "dataType": "string",
+          "dataType": "number",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.penalita_2))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
+          "fieldType": "Number Input",
           "iconAlign": "left",
           "identifier": "penalita_2",
           "isCustomField": false,
@@ -568,8 +568,8 @@
           "label": "Penalita 2",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "penalita_2",
-          "position": 15,
-          "sourceData": ""
+          "position": 8,
+          "sourceData": 1
         },
         "penalita_3": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -577,9 +577,9 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
-          "dataType": "string",
+          "dataType": "number",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.penalita_3))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
+          "fieldType": "Number Input",
           "iconAlign": "left",
           "identifier": "penalita_3",
           "isCustomField": false,
@@ -590,8 +590,8 @@
           "label": "Penalita 3",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "penalita_3",
-          "position": 17,
-          "sourceData": ""
+          "position": 9,
+          "sourceData": 0
         },
         "val1": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -612,7 +612,7 @@
           "label": "Val 1",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val1",
-          "position": 3
+          "position": 10
         },
         "val1_peso": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -633,8 +633,7 @@
           "label": "Val 1 Peso",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val1_peso",
-          "position": 4,
-          "sourceData": null
+          "position": 11
         },
         "val2": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -655,7 +654,7 @@
           "label": "Val 2",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val2",
-          "position": 5
+          "position": 12
         },
         "val2_peso": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -676,8 +675,7 @@
           "label": "Val 2 Peso",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val2_peso",
-          "position": 16,
-          "sourceData": null
+          "position": 13
         },
         "val3": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -698,7 +696,7 @@
           "label": "Val 3",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val3",
-          "position": 6
+          "position": 14
         },
         "val3_peso": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -719,8 +717,7 @@
           "label": "Val 3 Peso",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val3_peso",
-          "position": 18,
-          "sourceData": null
+          "position": 15
         },
         "val4": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -741,7 +738,7 @@
           "label": "Val 4",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val4",
-          "position": 7
+          "position": 16
         },
         "val4_peso": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -762,8 +759,7 @@
           "label": "Val 4 Peso",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val4_peso",
-          "position": 19,
-          "sourceData": null
+          "position": 17
         },
         "val5": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -784,7 +780,7 @@
           "label": "Val 5",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val5",
-          "position": 8
+          "position": 18
         },
         "val5_peso": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -805,8 +801,7 @@
           "label": "Val 5 Peso",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val5_peso",
-          "position": 20,
-          "sourceData": null
+          "position": 19
         },
         "val6": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -827,7 +822,7 @@
           "label": "Val 6",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val6",
-          "position": 9
+          "position": 20
         },
         "val6_peso": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -848,8 +843,7 @@
           "label": "Val 6 Peso",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val6_peso",
-          "position": 21,
-          "sourceData": null
+          "position": 21
         }
       },
       "dataType": "object",

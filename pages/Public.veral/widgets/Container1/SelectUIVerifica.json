@@ -47,7 +47,7 @@
   "mobileRightColumn": 50,
   "mobileTopRow": 8,
   "needsErrorInfo": false,
-  "onOptionChange": "{{SelectQuery.run()}}",
+  "onOptionChange": "{{SelectVeral.run()}}",
   "optionLabel": "label",
   "optionValue": "value",
   "parentColumnSpace": 12.208251953125,

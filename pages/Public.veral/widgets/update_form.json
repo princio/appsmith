@@ -187,15 +187,6 @@
       "key": "schema.__root_schema__.children.voto.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.griglia.defaultValue"
-    },
-    {
-      "key": "schema.__root_schema__.children.griglia.borderRadius"
-    },
-    {
-      "key": "schema.__root_schema__.children.griglia.accentColor"
-    },
-    {
       "key": "schema.__root_schema__.children.note.defaultValue"
     },
     {
@@ -347,7 +338,7 @@
   "leftColumn": 39,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
-  "onSubmit": "{{UpdateQuery.run(() => SelectQuery.run(), (error) => showAlert(`Error while updating resource!\\n ${error}`,'error'))}}",
+  "onSubmit": "{{UpdateQuery.run(() => SelectVeral.run(), (error) => showAlert(`Error while updating resource!\\n ${error}`,'error'))}}",
   "parentColumnSpace": 16.3125,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -410,7 +401,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "alunno_id",
           "position": 0,
-          "sourceData": 130
+          "sourceData": 154
         },
         "argomento": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -482,27 +473,6 @@
           "sourceData": "2024-11-22",
           "timePrecision": "minute"
         },
-        "griglia": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "accessor": "griglia",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "boxShadow": "none",
-          "children": {},
-          "dataType": "null",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.griglia))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
-          "identifier": "griglia",
-          "isCustomField": false,
-          "isDisabled": false,
-          "isRequired": false,
-          "isSpellCheck": false,
-          "isVisible": true,
-          "label": "Griglia",
-          "labelTextSize": "0.875rem",
-          "originalIdentifier": "griglia",
-          "position": 7
-        },
         "index": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "accessor": "index",
@@ -531,9 +501,9 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
-          "dataType": "string",
+          "dataType": "number",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.minuti))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
+          "fieldType": "Number Input",
           "iconAlign": "left",
           "identifier": "minuti",
           "isCustomField": false,
@@ -545,7 +515,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "minuti",
           "position": 20,
-          "sourceData": ""
+          "sourceData": 44
         },
         "nome": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -800,7 +770,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "verifica_id",
           "position": 1,
-          "sourceData": 1
+          "sourceData": 2
         },
         "voto": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",

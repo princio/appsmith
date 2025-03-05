@@ -45,7 +45,6 @@
     "customColumn1",
     "valutazione",
     "voto",
-    "griglia",
     "val1",
     "val2",
     "val3",
@@ -55,8 +54,10 @@
     "note",
     "minuti"
   ],
-  "columnUpdatedAt": 1741020624123,
-  "columnWidthMap": {},
+  "columnUpdatedAt": 1741168836517,
+  "columnWidthMap": {
+    "valutazione": 508
+  },
   "customIsLoading": false,
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
@@ -116,9 +117,6 @@
     },
     {
       "key": "primaryColumns.voto.computedValue"
-    },
-    {
-      "key": "primaryColumns.griglia.computedValue"
     },
     {
       "key": "primaryColumns.note.computedValue"
@@ -356,37 +354,6 @@
       "label": "data",
       "notation": "standard",
       "originalId": "data",
-      "sticky": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
-    "griglia": {
-      "alias": "griglia",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "columnType": "text",
-      "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"griglia\"]))}}",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "horizontalAlignment": "LEFT",
-      "id": "griglia",
-      "index": 13,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": false,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": false,
-      "label": "griglia",
-      "notation": "standard",
-      "originalId": "griglia",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
@@ -895,7 +862,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
-  "tableData": "{{SelectQuery.data}}",
+  "tableData": "{{SelectVeral.data}}",
   "textSize": "0.875rem",
   "topRow": 21,
   "totalRecordsCount": 0,
