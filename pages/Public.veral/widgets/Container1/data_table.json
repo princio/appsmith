@@ -31,6 +31,8 @@
     }
   },
   "columnOrder": [
+    "cognome",
+    "voto",
     "id",
     "alunno_id",
     "verifica_id",
@@ -38,17 +40,15 @@
     "argomento",
     "index",
     "nome",
-    "cognome",
     "dis",
+    "data",
     "ora_inizio",
     "ora_fine",
     "minuti",
     "customColumn3",
     "valutazione",
     "customColumn2",
-    "voto",
     "note",
-    "data",
     "val1",
     "val2",
     "val3",
@@ -57,7 +57,7 @@
     "val6",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1741191278372,
+  "columnUpdatedAt": 1741192988217,
   "columnWidthMap": {
     "cognome": 108,
     "customColumn1": 79,
@@ -215,6 +215,21 @@
     },
     {
       "key": "primaryColumns.val2.selectOptions"
+    },
+    {
+      "key": "primaryColumns.nome.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.dis.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.alunno_id.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.index.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.id.isCellVisible"
     }
   ],
   "dynamicPropertyPathList": [
@@ -238,6 +253,21 @@
     },
     {
       "key": "primaryColumns.val1.onOptionChange"
+    },
+    {
+      "key": "primaryColumns.nome.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.dis.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.alunno_id.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.index.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.id.isCellVisible"
     }
   ],
   "dynamicTriggerPathList": [
@@ -372,13 +402,13 @@
       "id": "alunno_id",
       "index": 1,
       "isCellEditable": false,
-      "isCellVisible": true,
+      "isCellVisible": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( SwitchId.isSwitchedOn))}}",
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": false,
+      "isVisible": true,
       "label": "alunno_id",
       "notation": "standard",
       "originalId": "alunno_id",
@@ -444,7 +474,7 @@
       "label": "cognome",
       "notation": "standard",
       "originalId": "cognome",
-      "sticky": "",
+      "sticky": "left",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -531,7 +561,7 @@
       "id": "data",
       "index": 8,
       "isCellEditable": false,
-      "isCellVisible": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( Switch1.isSwitchedOn))}}",
+      "isCellVisible": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( SwitchData.isSwitchedOn))}}",
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
@@ -565,7 +595,7 @@
       "id": "dis",
       "index": 8,
       "isCellEditable": false,
-      "isCellVisible": true,
+      "isCellVisible": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( SwitchDis.isSwitchedOn))}}",
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
@@ -597,7 +627,7 @@
       "id": "id",
       "index": 0,
       "isCellEditable": false,
-      "isCellVisible": true,
+      "isCellVisible": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( SwitchId.isSwitchedOn))}}",
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
@@ -628,7 +658,7 @@
       "id": "index",
       "index": 5,
       "isCellEditable": false,
-      "isCellVisible": true,
+      "isCellVisible": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( SwitchIndex.isSwitchedOn))}}",
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
@@ -690,7 +720,7 @@
       "id": "nome",
       "index": 6,
       "isCellEditable": false,
-      "isCellVisible": true,
+      "isCellVisible": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( SwitchNome.isSwitchedOn))}}",
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
@@ -752,7 +782,7 @@
       "id": "ora_fine",
       "index": 10,
       "isCellEditable": false,
-      "isCellVisible": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( Switch1.isSwitchedOn))}}",
+      "isCellVisible": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( SwitchOraFine.isSwitchedOn.isSwitchedOn))}}",
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
@@ -783,7 +813,7 @@
       "id": "ora_inizio",
       "index": 9,
       "isCellEditable": false,
-      "isCellVisible": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( Switch1.isSwitchedOn))}}",
+      "isCellVisible": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( SwitchOraInizio.isSwitchedOn))}}",
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
@@ -1084,7 +1114,7 @@
       "label": "voto",
       "notation": "standard",
       "originalId": "voto",
-      "sticky": "",
+      "sticky": "left",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
