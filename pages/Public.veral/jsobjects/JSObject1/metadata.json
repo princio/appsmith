@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "67c0a3fed91ad133982ef3ae_ac3f28f3-e3ad-40c1-8ed4-752ca74761ee",
+  "id": "Public.veral_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Public.veral",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "showTimings",
+        "value": "true"
+      },
+      {
+        "name": "valOptions",
+        "value": "[{\n  \"value\": 0,\n  \"label\": \"0\"\n}, {\n  \"value\": 0.5,\n  \"label\": \"0.5\"\n}, {\n  \"value\": 1,\n  \"label\": \"1\"\n}, {\n  \"value\": 1.5,\n  \"label\": \"1.5\"\n}, {\n  \"value\": 2,\n  \"label\": \"2\"\n}, {\n  \"value\": 2.5,\n  \"label\": \"2.5\"\n}, {\n  \"value\": 3,\n  \"label\": \"3\"\n}, {\n  \"value\": 3.5,\n  \"label\": \"3.5\"\n}, {\n  \"value\": 4,\n  \"label\": \"4\"\n}]"
+      }
+    ]
+  }
+}

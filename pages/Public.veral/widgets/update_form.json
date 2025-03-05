@@ -5,7 +5,8 @@
   "borderColor": "#fff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "0",
-  "bottomRow": 86,
+  "bottomRow": 168,
+  "bottomRowBeforeCollapse": 86,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
     "ARRAY": {
@@ -339,6 +340,8 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "onSubmit": "{{UpdateQuery.run(() => SelectVeral.run(), (error) => showAlert(`Error while updating resource!\\n ${error}`,'error'))}}",
+  "originalBottomRow": 86,
+  "originalTopRow": 0,
   "parentColumnSpace": 16.3125,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -401,7 +404,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "alunno_id",
           "position": 0,
-          "sourceData": 154
+          "sourceData": 226
         },
         "argomento": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -493,7 +496,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "index",
           "position": 17,
-          "sourceData": 0
+          "sourceData": 1
         },
         "minuti": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -770,7 +773,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "verifica_id",
           "position": 1,
-          "sourceData": 2
+          "sourceData": 34
         },
         "voto": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -792,7 +795,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "voto",
           "position": 6,
-          "sourceData": 8
+          "sourceData": 6
         }
       },
       "dataType": "object",
@@ -827,6 +830,7 @@
   },
   "title": "Update Row id: {{data_table.selectedRow.id}}",
   "topRow": 0,
+  "topRowBeforeCollapse": 0,
   "type": "JSON_FORM_WIDGET",
   "version": 1,
   "widgetId": "y5cjzuxnb3",

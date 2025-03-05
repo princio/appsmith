@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 103,
+  "bottomRow": 167,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -52,12 +52,22 @@
     "val5",
     "val6",
     "note",
-    "minuti"
+    "minuti",
+    "EditActions1"
   ],
-  "columnUpdatedAt": 1741168836517,
+  "columnUpdatedAt": 1741171148943,
   "columnWidthMap": {
-    "valutazione": 508
+    "cognome": 108,
+    "customColumn1": 79,
+    "data": 102,
+    "index": 75,
+    "nome": 94,
+    "ora_fine": 94,
+    "ora_inizio": 105,
+    "val1": 77,
+    "valutazione": 174
   },
+  "compactMode": "DEFAULT",
   "customIsLoading": false,
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
@@ -141,14 +151,63 @@
     },
     {
       "key": "primaryColumns.minuti.computedValue"
+    },
+    {
+      "key": "primaryColumns.ora_inizio.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.ora_fine.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.data.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.EditActions1.saveButtonColor"
+    },
+    {
+      "key": "primaryColumns.EditActions1.saveBorderRadius"
+    },
+    {
+      "key": "primaryColumns.EditActions1.discardBorderRadius"
+    },
+    {
+      "key": "primaryColumns.EditActions1.isSaveDisabled"
+    },
+    {
+      "key": "primaryColumns.EditActions1.isDiscardDisabled"
+    },
+    {
+      "key": "primaryColumns.val1.selectOptions"
     }
   ],
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.ora_inizio.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.ora_fine.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.data.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.EditActions1.isSaveDisabled"
+    },
+    {
+      "key": "primaryColumns.EditActions1.isDiscardDisabled"
+    },
+    {
+      "key": "primaryColumns.val1.onOptionChange"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "primaryColumns.val1.onOptionChange"
+    }
+  ],
   "enableClientSideSearch": true,
   "flexVerticalAlignment": "start",
   "horizontalAlignment": "LEFT",
@@ -158,7 +217,7 @@
   "isVisible": true,
   "isVisibleDownload": true,
   "isVisibleFilters": false,
-  "isVisiblePagination": true,
+  "isVisiblePagination": false,
   "isVisibleSearch": true,
   "key": "2dyng41mzw",
   "label": "Data",
@@ -169,10 +228,53 @@
   "mobileRightColumn": 19,
   "mobileTopRow": 19,
   "needsErrorInfo": false,
+  "originalBottomRow": 167,
+  "originalTopRow": 20,
   "parentColumnSpace": 12.208251953125,
   "parentId": "59rw5mx0bq",
   "parentRowSpace": 10,
+  "primaryColumnId": "id",
   "primaryColumns": {
+    "EditActions1": {
+      "alias": "EditActions1",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "editActions",
+      "computedValue": "",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "discardActionLabel": "Discard",
+      "discardBorderRadius": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "discardButtonColor": "#F22B2B",
+      "discardButtonVariant": "TERTIARY",
+      "discardIconAlign": "left",
+      "enableFilter": true,
+      "enableSort": true,
+      "id": "EditActions1",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardDisabled": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( !data_table.updatedRowIndices.includes(currentIndex)))}}",
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveDisabled": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( !data_table.updatedRowIndices.includes(currentIndex)))}}",
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Save / Discard",
+      "notation": "standard",
+      "originalId": "EditActions1",
+      "saveActionLabel": "Save",
+      "saveBorderRadius": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "saveButtonColor": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+      "saveIconAlign": "left",
+      "sticky": "right",
+      "thousandSeparator": true,
+      "validation": {},
+      "width": 150
+    },
     "Verifica": {
       "alias": "Verifica",
       "allowCellWrapping": false,
@@ -193,7 +295,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "Verifica",
       "notation": "standard",
       "originalId": "Verifica",
@@ -255,7 +357,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "argomento",
       "notation": "standard",
       "originalId": "argomento",
@@ -344,7 +446,7 @@
       "id": "data",
       "index": 8,
       "isCellEditable": false,
-      "isCellVisible": true,
+      "isCellVisible": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( Switch1.isSwitchedOn))}}",
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
@@ -354,6 +456,7 @@
       "label": "data",
       "notation": "standard",
       "originalId": "data",
+      "outputFormat": "YYYY-MM-DD",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
@@ -381,7 +484,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": false,
+      "isVisible": true,
       "label": "id",
       "notation": "standard",
       "originalId": "id",
@@ -413,7 +516,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "index",
+      "label": "#",
       "notation": "standard",
       "originalId": "index",
       "sticky": "",
@@ -530,7 +633,7 @@
       "id": "ora_fine",
       "index": 10,
       "isCellEditable": false,
-      "isCellVisible": true,
+      "isCellVisible": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( Switch1.isSwitchedOn))}}",
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
@@ -561,7 +664,7 @@
       "id": "ora_inizio",
       "index": 9,
       "isCellEditable": false,
-      "isCellVisible": true,
+      "isCellVisible": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( Switch1.isSwitchedOn))}}",
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
@@ -582,7 +685,7 @@
       "alias": "val1",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "columnType": "text",
+      "columnType": "select",
       "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"val1\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
@@ -591,17 +694,19 @@
       "horizontalAlignment": "LEFT",
       "id": "val1",
       "index": 15,
-      "isCellEditable": false,
+      "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": false,
+      "isEditable": true,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "val1",
       "notation": "standard",
+      "onOptionChange": "{{UpdateVal.run({val_id: 'val1'})}}",
       "originalId": "val1",
+      "selectOptions": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( JSObject1.valOptions))}}",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
@@ -862,9 +967,11 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
+  "serverSidePaginationEnabled": false,
+  "showInlineEditingOptionDropdown": true,
   "tableData": "{{SelectVeral.data}}",
   "textSize": "0.875rem",
-  "topRow": 21,
+  "topRow": 20,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,
