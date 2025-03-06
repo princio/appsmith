@@ -12,6 +12,10 @@
         "value": "null"
       },
       {
+        "name": "currentValutazione",
+        "value": "\"\""
+      },
+      {
         "name": "vals",
         "value": "[]"
       },

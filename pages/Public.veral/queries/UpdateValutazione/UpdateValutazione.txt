@@ -1,0 +1,1 @@
+UPDATE VERAL SET VALUTAZIONE={{RichTextEditor1.text}} WHERE id={{data_table.selectedRow.id}}

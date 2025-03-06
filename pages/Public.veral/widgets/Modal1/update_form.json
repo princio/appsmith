@@ -5,7 +5,7 @@
   "borderColor": "#fff",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "0",
-  "bottomRow": 168,
+  "bottomRow": 173,
   "bottomRowBeforeCollapse": 168,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
@@ -333,23 +333,7 @@
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
-    {
-      "key": "schema.__root_schema__.children.date_of_birth.defaultValue"
-    },
-    {
-      "key": "isVisible"
-    },
-    {
-      "key": "borderRadius"
-    },
-    {
-      "key": "onSubmit"
-    },
-    {
-      "key": "schema.__root_schema__.children.data.defaultValue"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onSubmit"
@@ -363,14 +347,14 @@
   "isVisible": "{{!!data_table.selectedRow.id}}",
   "key": "h9l9ozr8op",
   "labelTextSize": "0.875rem",
-  "leftColumn": 52,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "onSubmit": "{{UpdateQuery.run(() => SelectVeral.run(), (error) => showAlert(`Error while updating resource!\\n ${error}`,'error'))}}",
-  "originalBottomRow": 168,
+  "originalBottomRow": 86,
   "originalTopRow": 0,
   "parentColumnSpace": 16.3125,
-  "parentId": "0",
+  "parentId": "0t8vyqzxsg",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "resetButtonLabel": "Reset",
@@ -417,9 +401,9 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
-          "dataType": "string",
+          "dataType": "number",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.alunno_id))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
+          "fieldType": "Number Input",
           "iconAlign": "left",
           "identifier": "alunno_id",
           "isCustomField": false,
@@ -431,7 +415,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "alunno_id",
           "position": 0,
-          "sourceData": ""
+          "sourceData": 226
         },
         "argomento": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -531,9 +515,9 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
-          "dataType": "string",
+          "dataType": "number",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.index))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
+          "fieldType": "Number Input",
           "iconAlign": "left",
           "identifier": "index",
           "isCustomField": false,
@@ -545,7 +529,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "index",
           "position": 17,
-          "sourceData": ""
+          "sourceData": 1
         },
         "minuti": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -553,9 +537,9 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
-          "dataType": "string",
+          "dataType": "number",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.minuti))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
+          "fieldType": "Number Input",
           "iconAlign": "left",
           "identifier": "minuti",
           "isCustomField": false,
@@ -567,7 +551,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "minuti",
           "position": 20,
-          "sourceData": ""
+          "sourceData": 44
         },
         "nome": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -808,9 +792,9 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
-          "dataType": "string",
+          "dataType": "number",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.verifica_id))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
+          "fieldType": "Number Input",
           "iconAlign": "left",
           "identifier": "verifica_id",
           "isCustomField": false,
@@ -822,7 +806,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "verifica_id",
           "position": 1,
-          "sourceData": ""
+          "sourceData": 34
         },
         "voto": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -830,9 +814,9 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
-          "dataType": "string",
+          "dataType": "number",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.voto))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
+          "fieldType": "Number Input",
           "iconAlign": "left",
           "identifier": "voto",
           "isCustomField": false,
@@ -844,7 +828,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "voto",
           "position": 6,
-          "sourceData": ""
+          "sourceData": 6
         },
         "voto_calcolato": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -874,9 +858,9 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
-          "dataType": "string",
+          "dataType": "number",
           "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"penalità\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
+          "fieldType": "Number Input",
           "iconAlign": "left",
           "identifier": "xn__penalit_fwa",
           "isCustomField": false,
@@ -888,7 +872,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "penalità",
           "position": 22,
-          "sourceData": ""
+          "sourceData": 1
         }
       },
       "dataType": "object",
@@ -922,10 +906,10 @@
     "buttonVariant": "PRIMARY"
   },
   "title": "Update Row id: {{data_table.selectedRow.id}}",
-  "topRow": 0,
+  "topRow": 4,
   "topRowBeforeCollapse": 0,
   "type": "JSON_FORM_WIDGET",
   "version": 1,
-  "widgetId": "y5cjzuxnb3",
+  "widgetId": "ooxikmoxit",
   "widgetName": "update_form"
 }

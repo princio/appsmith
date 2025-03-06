@@ -388,8 +388,7 @@
           "label": "Argomento",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "argomento",
-          "position": 3,
-          "sourceData": null
+          "position": 3
         },
         "classe": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -481,8 +480,7 @@
           "label": "Limite 1",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "limite_1",
-          "position": 5,
-          "sourceData": null
+          "position": 5
         },
         "limite_2": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -503,8 +501,7 @@
           "label": "Limite 2",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "limite_2",
-          "position": 6,
-          "sourceData": null
+          "position": 6
         },
         "limite_3": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -525,8 +522,7 @@
           "label": "Limite 3",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "limite_3",
-          "position": 7,
-          "sourceData": null
+          "position": 7
         },
         "nome": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -569,8 +565,7 @@
           "label": "Penalita 1",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "penalita_1",
-          "position": 8,
-          "sourceData": null
+          "position": 8
         },
         "penalita_2": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -591,8 +586,7 @@
           "label": "Penalita 2",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "penalita_2",
-          "position": 9,
-          "sourceData": null
+          "position": 9
         },
         "penalita_3": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -613,8 +607,7 @@
           "label": "Penalita 3",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "penalita_3",
-          "position": 10,
-          "sourceData": null
+          "position": 10
         },
         "val1": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -635,8 +628,7 @@
           "label": "Val 1",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val1",
-          "position": 11,
-          "sourceData": null
+          "position": 11
         },
         "val1_peso": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -657,8 +649,7 @@
           "label": "Val 1 Peso",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val1_peso",
-          "position": 17,
-          "sourceData": null
+          "position": 17
         },
         "val2": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -679,8 +670,7 @@
           "label": "Val 2",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val2",
-          "position": 12,
-          "sourceData": null
+          "position": 12
         },
         "val2_peso": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -701,8 +691,7 @@
           "label": "Val 2 Peso",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val2_peso",
-          "position": 18,
-          "sourceData": null
+          "position": 18
         },
         "val3": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -723,8 +712,7 @@
           "label": "Val 3",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val3",
-          "position": 13,
-          "sourceData": null
+          "position": 13
         },
         "val3_peso": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -745,8 +733,7 @@
           "label": "Val 3 Peso",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val3_peso",
-          "position": 19,
-          "sourceData": null
+          "position": 19
         },
         "val4": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -767,8 +754,7 @@
           "label": "Val 4",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val4",
-          "position": 14,
-          "sourceData": null
+          "position": 14
         },
         "val4_peso": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -789,8 +775,7 @@
           "label": "Val 4 Peso",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val4_peso",
-          "position": 20,
-          "sourceData": null
+          "position": 20
         },
         "val5": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -811,8 +796,7 @@
           "label": "Val 5",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val5",
-          "position": 15,
-          "sourceData": null
+          "position": 15
         },
         "val5_peso": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -833,8 +817,7 @@
           "label": "Val 5 Peso",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val5_peso",
-          "position": 21,
-          "sourceData": null
+          "position": 21
         },
         "val6": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -855,8 +838,7 @@
           "label": "Val 6",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val6",
-          "position": 16,
-          "sourceData": null
+          "position": 16
         },
         "val6_peso": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
@@ -877,8 +859,7 @@
           "label": "Val 6 Peso",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "val6_peso",
-          "position": 22,
-          "sourceData": null
+          "position": 22
         }
       },
       "dataType": "object",

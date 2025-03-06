@@ -1,7 +1,11 @@
 export default {
 	verifica: null,
+	currentValutazione: "",
 	vals: [],
 	showTimings: true,
+	setCurrentValutazione() {
+		this.currentValutazione = data_table.selectedRow.valutazione;
+	},
 	switchShowTimings() {
 		this.showTimings = !this.showTimings;
 	},

@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 184,
+  "bottomRow": 204,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -288,6 +288,9 @@
     },
     {
       "key": "primaryColumns.val2.onOptionChange"
+    },
+    {
+      "key": "onRowSelected"
     }
   ],
   "enableClientSideSearch": true,
@@ -310,8 +313,9 @@
   "mobileRightColumn": 19,
   "mobileTopRow": 19,
   "needsErrorInfo": false,
-  "originalBottomRow": 184,
-  "originalTopRow": 43,
+  "onRowSelected": "{{JSObject1.setCurrentValutazione();}}",
+  "originalBottomRow": 206,
+  "originalTopRow": 65,
   "parentColumnSpace": 12.208251953125,
   "parentId": "59rw5mx0bq",
   "parentRowSpace": 10,
@@ -1130,7 +1134,7 @@
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{SelectVeral.data}}",
   "textSize": "0.875rem",
-  "topRow": 43,
+  "topRow": 63,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,

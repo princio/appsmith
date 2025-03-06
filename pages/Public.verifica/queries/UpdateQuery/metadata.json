@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "UPDATE public.\"verifica\" SET\n\t\t\"nome\" = '{{update_form.fieldState.nome.isVisible ? update_form.formData.nome : update_form.sourceData.nome}}',\n\t\t\"classe\" = '{{update_form.fieldState.classe.isVisible ? update_form.formData.classe : update_form.sourceData.classe}}',\n    \"argomento\" = '{{update_form.fieldState.argomento.isVisible ? update_form.formData.argomento : update_form.sourceData.argomento}}',\n\t\t\"datetime\" = '{{update_form.fieldState.datetime.isVisible ? update_form.formData.datetime : update_form.sourceData.datetime}}',\n\t\t\"griglia\" = '{{update_form.fieldState.griglia.isVisible ? update_form.formData.griglia : update_form.sourceData.griglia}}',\n\t\t\"limiti_di_tempo\" = '{{update_form.fieldState.limiti_di_tempo.isVisible ? update_form.formData.limiti_di_tempo : update_form.sourceData.limiti_di_tempo}}',\n\t\t\"val1\" = '{{update_form.fieldState.val1.isVisible ? update_form.formData.val1 : update_form.sourceData.val1}}',\n\t\t\"val2\" = '{{update_form.fieldState.val2.isVisible ? update_form.formData.val2 : update_form.sourceData.val2}}',\n\t\t\"val3\" = '{{update_form.fieldState.val3.isVisible ? update_form.formData.val3 : update_form.sourceData.val3}}',\n\t\t\"val4\" = '{{update_form.fieldState.val4.isVisible ? update_form.formData.val4 : update_form.sourceData.val4}}',\n\t\t\"val5\" = '{{update_form.fieldState.val5.isVisible ? update_form.formData.val5 : update_form.sourceData.val5}}'\n\tWHERE \"id\" = {{data_table.selectedRow.id}};",
+      "body": "UPDATE public.\"verifica\" SET\n\t\t\"nome\" = '{{update_form.fieldState.nome.isVisible ? update_form.formData.nome : update_form.sourceData.nome}}',\n\t\t\"classe\" = '{{update_form.fieldState.classe.isVisible ? update_form.formData.classe : update_form.sourceData.classe}}',\n    \"argomento\" = '{{update_form.fieldState.argomento.isVisible ? update_form.formData.argomento : update_form.sourceData.argomento}}',\n\t\t\"data\" = '{{update_form.fieldState.data.isVisible ? update_form.formData.datetime : update_form.sourceData.datetime}}',\n\t\t\"limite_1\" = '{{update_form.fieldState.limite_1.isVisible ? update_form.formData.limite_1 : update_form.sourceData.limite_1}}',\n\t\t\"limite_2\" = '{{update_form.fieldState.limite_2.isVisible ? update_form.formData.limite_2: update_form.sourceData.limite_2}}',\n\t\t\"limite_3\" = '{{update_form.fieldState.limite_3.isVisible ? update_form.formData.limite_3: update_form.sourceData.limite_3}}',\n\t\t\"penalita_1\" = '{{update_form.fieldState.penalita_1.isVisible ? update_form.formData.penalita_1 : update_form.sourceData.penalita_1}}',\n\t\t\"penalita_2\" = '{{update_form.fieldState.penalita_2.isVisible ? update_form.formData.penalita_2: update_form.sourceData.penalita_2}}',\n\t\t\"penalita_3\" = '{{update_form.fieldState.penalita_3.isVisible ? update_form.formData.penalita_3: update_form.sourceData.penalita_3}}',\n\t\t\"val1\" = '{{update_form.fieldState.val1.isVisible ? update_form.formData.val1 : update_form.sourceData.val1}}',\n\t\t\"val2\" = '{{update_form.fieldState.val2.isVisible ? update_form.formData.val2 : update_form.sourceData.val2}}',\n\t\t\"val3\" = '{{update_form.fieldState.val3.isVisible ? update_form.formData.val3 : update_form.sourceData.val3}}',\n\t\t\"val4\" = '{{update_form.fieldState.val4.isVisible ? update_form.formData.val4 : update_form.sourceData.val4}}',\n\t\t\"val5\" = '{{update_form.fieldState.val5.isVisible ? update_form.formData.val5 : update_form.sourceData.val5}}',\n\t\t\"val6\" = '{{update_form.fieldState.val6.isVisible ? update_form.formData.val6 : update_form.sourceData.val6}}'\n\tWHERE \"id\" = {{data_table.selectedRow.id}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,6 +22,11 @@
       "name": "scuola",
       "pluginId": "postgres-plugin"
     },
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "executeOnLoad": false,
     "name": "UpdateQuery",
     "pageId": "Public.verifica",
