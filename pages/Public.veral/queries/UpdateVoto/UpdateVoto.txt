@@ -1,0 +1,1 @@
+UPDATE veral SET voto={{data_table.updatedRow['voto']}} where id={{data_table.updatedRow['id']}}

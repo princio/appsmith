@@ -291,6 +291,9 @@
     },
     {
       "key": "onRowSelected"
+    },
+    {
+      "key": "primaryColumns.voto.onSubmit"
     }
   ],
   "enableClientSideSearch": true,
@@ -313,7 +316,7 @@
   "mobileRightColumn": 19,
   "mobileTopRow": 19,
   "needsErrorInfo": false,
-  "onRowSelected": "{{JSObject1.setCurrentValutazione();}}",
+  "onRowSelected": "{{JSObject1.setTesto();}}",
   "originalBottomRow": 206,
   "originalTopRow": 65,
   "parentColumnSpace": 12.208251953125,
@@ -1107,16 +1110,17 @@
       "horizontalAlignment": "LEFT",
       "id": "voto",
       "index": 12,
-      "isCellEditable": false,
+      "isCellEditable": true,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": false,
+      "isEditable": true,
       "isSaveVisible": true,
       "isVisible": true,
       "label": "voto",
       "notation": "standard",
+      "onSubmit": "{{UpdateVoto.run()}}",
       "originalId": "voto",
       "sticky": "left",
       "textSize": "0.875rem",
