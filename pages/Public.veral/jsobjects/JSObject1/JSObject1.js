@@ -39,7 +39,8 @@ export default {
 		}
 		voto = Math.ceil(voto * 1000) / 100;
 		const penalita = this.penalita(row);
-		return `${voto.toPrecision(3)} - ${penalita} = ${(voto - penalita).toPrecision(3)}`
+		// return `${voto.toPrecision(3)} - ${penalita} = ${(voto - penalita).toPrecision(3)}`
+		return `${(voto - penalita).toPrecision(3)}`;
 	},
 	penalita(row) {
 		let penalita = 0;
